@@ -91,9 +91,9 @@
 (راهنمایی: لیست توابع سیستمی و تعداد آن‌ها در فایل سرآیند
 [unistd.h](https://elixir.bootlin.com/linux/latest/source/include/uapi/asm-generic/unistd.h)
 از هسته سیستم عامل وجود دارد.
-
 )
-لینک‌های کمک:
+
+ لینک‌های کمکی:
 
  - [پستی درباره نحوه یافتن جدول فراخوانی سیستمی در لینوکس](https://memset.wordpress.com/2011/03/18/syscall-hijacking-dynamically-obtain-syscall-table-address-kernel-2-6-x-2/)
  - [لیست تمامی فراخوانی‌های سیستمی همه توزیع‌های‌ لینوکس](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
