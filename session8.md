@@ -89,15 +89,15 @@
 یک ماژول سطح هسته بنویسید که آدرس تمام توابع سیستمی موجود
 در هسته سیستم‌عامل لینوکس را چاپ کند.
 (راهنمایی: لیست توابع سیستمی و تعداد آن‌ها در فایل سرآیند
-unistd.h
+[unistd.h](https://elixir.bootlin.com/linux/latest/source/include/uapi/asm-generic/unistd.h)
 از هسته سیستم عامل وجود دارد.
-[link](https://elixir.bootlin.com/linux/latest/source/include/uapi/asm-generic/unistd.h)
-)
 
- - [1](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
- - [2](https://memset.wordpress.com/2011/03/18/syscall-hijacking-dynamically-obtain-syscall-table-address-kernel-2-6-x-2/)
- - [3](https://unix.stackexchange.com/questions/421750/where-do-you-find-the-syscall-table-for-linux)
- - [4](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
+)
+لینک‌های کمک:
+
+ - [پستی درباره نحوه یافتن جدول فراخوانی سیستمی در لینوکس](https://memset.wordpress.com/2011/03/18/syscall-hijacking-dynamically-obtain-syscall-table-address-kernel-2-6-x-2/)
+ - [لیست تمامی فراخوانی‌های سیستمی همه توزیع‌های‌ لینوکس](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
+ - [سوالی درباره محل جدول فراخوانی‌های سیستمی](https://unix.stackexchange.com/questions/421750/where-do-you-find-the-syscall-table-for-linux)
  
 انتظار می‌رود خروجی این آزمایش شامل موارد زیر باشد.
 
