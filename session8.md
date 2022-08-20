@@ -82,8 +82,21 @@
 لازم به ذکر است که در این هسته حدود ۳۲۸ تابع سیستمی وجود
 دارد.
 
-![image-8.2](./image/8-2.png)
-
+<div dir=LTR>
+ 
+| *rax* | *System call* | *rdi*                | *rsi*                | *rdx*        |
+| :---: | :------------ | :------------------- | :------------------- | :----------- |
+|   0   | sys_read      | unsigned int fd      | char *buf            | size_t count |
+|   1   | sys_read      | unsigned int fd      | const char *buf      | size_t count |
+|   2   | sys_open      | const char *filename | int flags            | int mode     |
+|   3   | sys_close     | unsigned int fd      |                      | ‌             |
+|   4   | sys_stat      | const char *filename | struct stat *statbuf |              |
+|   5   | sys_fstat     | unsigned int fd      | struct stat *statbuf |              |
+|   6   | sys_lstat     | const char *filename | struct stat *statbuf |              |
+|  ...  | ...           | ...                  | ...                  | ...          |
+</div>
+ 
+ 
 ## ۸.۳ آزمایش ۱
 
 یک ماژول سطح هسته بنویسید که آدرس تمام توابع سیستمی موجود
