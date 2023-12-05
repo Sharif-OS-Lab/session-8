@@ -102,15 +102,13 @@
 یک ماژول سطح هسته بنویسید که آدرس تمام توابع سیستمی موجود
 در هسته سیستم‌عامل لینوکس را چاپ کند.
 (راهنمایی: لیست توابع سیستمی و تعداد آن‌ها در فایل سرآیند
-unistd.h
+[unistd.h](https://elixir.bootlin.com/linux/latest/source/include/uapi/asm-generic/unistd.h)
 از هسته سیستم عامل وجود دارد.
-[link](https://elixir.bootlin.com/linux/latest/source/include/uapi/asm-generic/unistd.h)
-)
 
- - [1](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
- - [2](https://memset.wordpress.com/2011/03/18/syscall-hijacking-dynamically-obtain-syscall-table-address-kernel-2-6-x-2/)
- - [3](https://unix.stackexchange.com/questions/421750/where-do-you-find-the-syscall-table-for-linux)
- - [4](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
+ - [Linux kernel system calls for all architectures](https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html)
+ - [Syscall Hijacking: Dynamically obtain syscall table address](https://memset.wordpress.com/2011/03/18/syscall-hijacking-dynamically-obtain-syscall-table-address-kernel-2-6-x-2/)
+ - [Where do you find the syscall table for Linux?](https://unix.stackexchange.com/questions/421750/where-do-you-find-the-syscall-table-for-linux)
+ - [Proper way of getting the address of non-exported kernel symbols in a Linux kernel module](https://stackoverflow.com/questions/70930059/proper-way-of-getting-the-address-of-non-exported-kernel-symbols-in-a-linux-kern/71792997#71792997)
  
 انتظار می‌رود خروجی این آزمایش شامل موارد زیر باشد.
 
@@ -139,6 +137,6 @@ unistd.h
 
 
  
- - [superhide](https://github.com/jordan9001/superhide)
- - [Guest Diary (Etay Nir) Kernel Hooking Basics](https://isc.sans.edu/forums/diary/Guest+Diary+Etay+Nir+Kernel+Hooking+Basics/23155/)
+ - [superhide (Example of hooking a linux systemcall)](https://github.com/jordan9001/superhide)
+ - [Guest Diary (Etay Nir) Kernel Hooking Basics](https://web.archive.org/web/20200805193836/https://isc.sans.edu/forums/diary/Guest+Diary+Etay+Nir+Kernel+Hooking+Basics/23155/)
 </div>
